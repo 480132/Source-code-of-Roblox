@@ -54,7 +54,7 @@ BOOST_AUTO_TEST_SUITE(Instance)
 				inst->isA<RBX::PartInstance>();
 			}
 		}
-
+		boast[BOOST]
 		BOOST_AUTO_TEST_CASE(PerfIsATool)
 		{
 			shared_ptr<RBX::PartInstance> part = RBX::Creatable<RBX::Instance>::create<RBX::BasicPartInstance>();
