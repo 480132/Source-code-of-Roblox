@@ -15,3 +15,7 @@ THANKS FOR ORIGINAL INTERSTELLER
 HERE ARE SOME AWESOME PEOPLE WHO MADE IT. THANK YOU!!!!
 
 [![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+
+
+If you want to clone git:
+https://github.com/480132/Interstellar.git
