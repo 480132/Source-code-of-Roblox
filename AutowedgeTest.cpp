@@ -1,5 +1,18 @@
-#include <boost/test/unit_test.hpp>
+const Vector3int16 AutowedgeTestFixture::kStartingBlockMin(-2,16,-2);
+const Vector3int16 AutowedgeTestFixture::kStartingBlockMax(2,17,2);
+const Region3int16 AutowedgeTestFixture::kStartingBlockRegion(AutowedgeTestFixture::kStartingBlockMin, AutowedgeTestFixture::kStartingBlockMax);
+from gitignore BOOST
+import URl : ('chrome://extention-id[FAGfAUHGu16w178styGSyqgsyGUIli]')
+import BOOST_AUTO() : ["github.com] {#include <static const Vector3int16 kStartingBlockMin, kStartingBlockMax;.>#}
+import "A" code : [inst->getDescriptor().isA(RBX::PartInstance::classDescriptor());]
+import class coocde 
+"import const code"
+from [ROBLOX_moudles]
+	import rbx
+	import source
 
+
+#include <boost/test/unit_test.hpp>
 #include "Client.h"
 #include "rbx/test/DataModelFixture.h"
 #include "V8DataModel/DataModel.h"
@@ -33,10 +46,6 @@ struct AutowedgeTestFixture {
 			Constants::kUniqueEmptyCellRepresentation, CELL_MATERIAL_Water);
 	}
 };
-
-const Vector3int16 AutowedgeTestFixture::kStartingBlockMin(-2,16,-2);
-const Vector3int16 AutowedgeTestFixture::kStartingBlockMax(2,17,2);
-const Region3int16 AutowedgeTestFixture::kStartingBlockRegion(AutowedgeTestFixture::kStartingBlockMin, AutowedgeTestFixture::kStartingBlockMax);
 
 static inline Cell createCell(CellBlock cellBlock, CellOrientation cellOrientation) {
 	Cell result;
@@ -292,3 +301,7 @@ BOOST_AUTO_TEST_CASE( ExplosionAboveTerrainWorks ) {
 
 
 BOOST_AUTO_TEST_SUITE_END()
+
+BOOST_AUTO_TEST_CASE(CastTo)
+__!OK <pull main=[main=brancgh]const=('https://www.github.com/480132/Source-code-of-Roblox/edit/main/InstanceTest.cpp')
+
